@@ -8,3 +8,13 @@
     font-family: Inter;
     src: url(fonts/Inter.ttf);
 }
+
+.button1 {
+    background-color: dodgerblue;
+    color: black;
+    border-radius: 10px;
+}
+
+::backdrop {
+    color: darkgray;
+}
