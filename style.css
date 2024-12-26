@@ -15,6 +15,8 @@
     border-radius: 10px;
 }
 
-::backdrop {
-    color: darkgray;
+.button1:hover {
+    scale: 105%;
+    transition: 0.2;
+    background-color: rgb(18, 94, 170);
 }
