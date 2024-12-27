@@ -9,14 +9,37 @@
     src: url(fonts/Inter.ttf);
 }
 
-.button1 {
-    background-color: dodgerblue;
-    color: black;
-    border-radius: 10px;
+
+body {
+    background-color: darkgray;
 }
 
-.button1:hover {
+/* yk what im just gonna steal from coolsounds */
+
+button {
+    background-color: dodgerblue; 
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    border-radius: 10px;
+    transition: 0.2s;
+    flex-wrap: wrap;
+  }
+  
+  button:hover {
+    background-color: rgb(20, 93, 165); 
     scale: 105%;
-    transition: 0.2;
-    background-color: rgb(18, 94, 170);
+    box-shadow: 0 0 20px rgb(20, 93, 165);
+    flex-wrap: wrap;
+  }
+
+.title {
+    size: 1.2em;
+}
+
+.para {
+    size: 1.1em;
 }
