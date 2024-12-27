@@ -43,3 +43,21 @@ button {
 .para {
     size: 1.1em;
 }
+
+#embed {
+    border-radius: 20px;
+    height: 590px;
+    width: 1050px;
+    transition: 0.3s;
+}
+
+#gofullscreen {
+    border-radius: 12px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    margin-top: 15px;
+    text-align: center;
+    background-color: dodgerblue;
+    transition: 0.2s;
+}
