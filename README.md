@@ -6,6 +6,4 @@ Quality, ad-free, and amazing. <br>
 # Instructions 
 1. Navigate to [Seasons](https://watchskibidi.github.io/seasons.html)
 2. Click any season you want to watch.
-3. A download will start.
-4. Open the file after download is complete.
-5. Enjoy!
+3. Season will start playing!
