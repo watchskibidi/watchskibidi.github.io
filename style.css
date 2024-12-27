@@ -1,63 +1,153 @@
 * {
-    text-align: center;
-    font-family: Inter, Arial;
-    color: dodgerblue;
+  text-align: center;
+  font-family: tiktok;
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: Inter;
-    src: url(fonts/Inter.ttf);
+  font-family: tiktok;
+  src: url(/assets/fonts/tiktok.ttf);
 }
 
+@font-face {
+  font-family: ttbold;
+  src: url(/assets/fonts/ttbold.ttf);
+}
 
 body {
-    background-color: darkgray;
+  background-color: #1d1d1d;
+  color: white;
 }
 
-/* yk what im just gonna steal from coolsounds */
-
 button {
-    background-color: dodgerblue; 
-    color: rgb(0, 0, 0);
-    border: none;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    cursor: pointer;
-    transition: background-color 0.2s;
-    border-radius: 10px;
-    transition: 0.2s;
-    flex-wrap: wrap;
-  }
+  background-color: dodgerblue; 
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 10px;
+  transition: 0.2s;
+  flex-wrap: wrap;
+}
   
-  button:hover {
-    background-color: rgb(20, 93, 165); 
-    scale: 105%;
-    box-shadow: 0 0 20px rgb(20, 93, 165);
-    flex-wrap: wrap;
-  }
+button:hover {
+ scale: 1.2;
+}
 
 .title {
-    size: 1.2em;
+  size: 1.2em;
 }
 
 .para {
-    size: 1.1em;
+  size: 1.1em;
 }
 
 #embed {
-    border-radius: 20px;
-    height: 590px;
-    width: 1050px;
-    transition: 0.3s;
+  border-radius: 20px;
+  height: 590px;
+  width: 1050px;
+  transition: 0.3s;
+  position: block;
 }
 
 #gofullscreen {
-    border-radius: 12px;
-    height: 50px;
-    width: 150px;
-    color: white;
-    margin-top: 15px;
-    text-align: center;
-    background-color: dodgerblue;
-    transition: 0.2s;
+  border-radius: 12px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  margin-top: 15px;
+  text-align: center;
+  background-color: dodgerblue;
+  transition: 0.2s;
+  font-size: 17px;
+}
+
+nav {
+  display: block;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: rgb(10, 10, 10);
+  color: white;
+  border-radius: 27px;
+  box-shadow: 0 0 15px rgb(10, 10, 10);
+  font-weight: 500;
+  font-family: Inter;
+  height: 45px;
+  margin-bottom: 15px;
+}
+    
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+    
+nav li {
+  margin-right: 1rem;
+  position: relative;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 500;
+  transition: 0.2s;
+  float: right;
+}
+  
+li.title {
+  font-size: 30px;
+  float: left;
+  margin-top: -6px;
+  font-family: ttbold;
+}
+    
+nav a {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  font-family: Inter;
+  font-weight: 600;
+  top: 10px;
+  transition: 0.25s;
+}
+  
+nav a:hover {
+  background-color: white;
+  padding-top: 10px;
+  color: black;
+  padding-bottom: 10px;
+  padding-right: 100px;
+  padding-left: 12px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+  
+nav a p {
+  opacity: 0;
+  transition: .2s;
+  color: black;
+  position: fixed;
+  display: none;
+  margin-left: 50px;
+  margin-top: -22px;
+  transition: .3s;
+  transition-delay: .2s;
+}
+  
+nav a:hover p {
+  opacity: 1;
+  display: block;
+  position: fixed;
+}
+  
+nav a.disabled:hover {
+  cursor: default;
+  background-color: gray;
+  color: white;
+}
+  
+nav a.disabled {
+  color: gray;
 }
