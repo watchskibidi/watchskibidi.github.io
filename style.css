@@ -10,6 +10,11 @@
 }
 
 @font-face {
+  font-family: mono;
+  src: url(/assets/fonts/jetbrains.ttf);
+}
+
+@font-face {
   font-family: ttbold;
   src: url(/assets/fonts/ttbold.ttf);
 }
@@ -62,6 +67,7 @@ button:hover {
   background-color: dodgerblue;
   transition: 0.2s;
   font-size: 17px;
+  padding-left: 0px;
 }
 
 nav {
@@ -150,4 +156,24 @@ nav a.disabled:hover {
   
 nav a.disabled {
   color: gray;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.keybind {
+  background-color: rgb(71, 71, 71);
+  border-radius: 7px;
+  box-shadow: 0px 3px 0px black;
+  height: 17px;
+  width: 17px;
+  text-align: center;
+  padding-bottom: -1px;
+  padding: 5px;
+  font-family: mono;
+  font-size: 12px;
+  margin-left: 105px;
+  margin-top: -23px;
 }
