@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Watch Skibidi</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Watch Skibidi - Season 2</title>
+    <link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="/assets/fontawesome/css/all.css">
+</head>
+<body>
 
     <nav>
         <ul>
@@ -15,21 +17,18 @@
         </ul>   
     </nav>
 
-</head>
-<body>
-    <p class="para">Click any season to download and watch.</p>
 
+    <embed src="/assets/vids/season2.mp4" type="video/mp4" id="embed">
 
+        
+    
+    <center>
+        <div class="container">
+            <button id="gofullscreen" onclick="fullscreen()">Fullscreen <div class="keybind">f</div></button>
+        </div>
+    </center>
 
-    <a href="/movies-html/season1">
-        <button class="download-button">Season 1</button>
-    </a>
-
-    <a href="/movies-html/season2">
-        <button class="download-button">Season 2</button>
-    </a>
-
-
-    <script src="main.js"></script>
+    <script src="/main.js"></script>
+    
 </body>
 </html>
