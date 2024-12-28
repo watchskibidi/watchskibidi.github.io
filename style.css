@@ -38,7 +38,10 @@ button {
 }
   
 button:hover {
- scale: 1.2;
+ scale: 1.1;
+ background-color: rgb(19, 96, 173);
+ color: rgb(0, 0, 0);
+ box-shadow: 0 0 20px rgb(19, 96, 173);
 }
 
 .title {
