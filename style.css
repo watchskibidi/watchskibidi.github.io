@@ -4,6 +4,10 @@
   font-weight: 500;
 }
 
+.title {
+  font-family: tiktok;
+}
+
 @font-face {
   font-family: tiktok;
   src: url(/assets/fonts/tiktok.ttf);
