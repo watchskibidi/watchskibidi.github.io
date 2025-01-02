@@ -6,6 +6,7 @@
 
 .title {
   font-family: tiktok;
+  font-size: 1.4em;
 }
 
 @font-face {
@@ -47,10 +48,6 @@ button:hover {
  background-color: rgb(19, 96, 173);
  color: rgb(0, 0, 0);
  box-shadow: 0 0 20px rgb(19, 96, 173);
-}
-
-.title {
-  size: 1.2em;
 }
 
 .para {
