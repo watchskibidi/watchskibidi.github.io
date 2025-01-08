@@ -13,3 +13,5 @@ Quality, ad-free, and amazing. <br>
 2. Click the three dots in the bottom right corner.
 3. Hit download, and the season is downloaded.
 ## Want to help? Just create a pull request!
+# Alternate Links
+[watchskibidi.up.railway.app/](https://watchskibidi.up.railway.app/)
