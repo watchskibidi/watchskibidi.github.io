@@ -1,4 +1,25 @@
-console.log('skibidi toilet')
+const encodePassword = (password) => btoa(password);
+const correctPasswordEncoded = "c2tpYmlkaQ==";  
+
+const checkPassword = () => {
+    if (localStorage.getItem("access_granted") === "true") {
+        document.body.style.display = "block";
+    } else {
+        const password = prompt("Enter the password:");
+        if (encodePassword(password) === correctPasswordEncoded) {
+            localStorage.setItem("access_granted", "true");
+            document.body.style.display = "block";
+        } else {
+            alert("Incorrect password.");
+            location.reload();
+        }
+    }
+};
+
+document.body.style.display = "none"; 
+checkPassword();
+
+console.log('skibidi toilet');
 let skibiditoilet;
 
 var movie = document.getElementById('embed');
@@ -42,7 +63,6 @@ function fullscreen() {
         }, 500);
     }, 4000);
 }
-
 
 function exitFullscreen() {
     movie.style.width = '1050px';

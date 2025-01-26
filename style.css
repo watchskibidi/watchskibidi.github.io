@@ -10,6 +10,10 @@
   font-size: 2em;
 }
 
+body {
+  display: none;
+}
+
 @font-face {
   font-family: tiktok;
   src: url(/assets/fonts/tiktok.ttf);
