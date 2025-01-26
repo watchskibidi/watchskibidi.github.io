@@ -23,5 +23,28 @@
      src="assets/img/skibidi.jpg" alt="Skibidi Toilet">
 
     <script src="main.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyAkISdRPvtn1QS3lRZoQXdsvAaoCHIMWfQ",
+          authDomain: "watchskibidi69.firebaseapp.com",
+          projectId: "watchskibidi69",
+          storageBucket: "watchskibidi69.firebasestorage.app",
+          messagingSenderId: "1040950618346",
+          appId: "1:1040950618346:web:d35f49d9a93563a3f38f93",
+          measurementId: "G-JWWWYD4Y3C"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
 </body>
 </html>
