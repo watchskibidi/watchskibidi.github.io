@@ -15,3 +15,4 @@ Quality, ad-free, and amazing. <br>
 ## Want to help? Just create a pull request!
 # Alternate Links
 [watchskibidi.up.railway.app/](https://watchskibidi.up.railway.app/)
+[watchskibidi.netlify.app/](https://watchskibidi.netlify.app/)
